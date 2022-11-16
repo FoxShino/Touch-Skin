@@ -13,6 +13,12 @@ body {
 }
 
 /*NAVBAR*/
+.logosenac{
+    position: absolute;
+    top: 3%;
+    max-height: 40px;
+    left: 35px;
+  }
 
 nav {
     background-color: #483D8B	;
@@ -82,12 +88,16 @@ nav ul li:hover .sub-menu-contatos ul li:hover {
 .imagem{
     position: absolute;
     width: 550px;
-    height: 640px;
-    top: 250px;
+    height: 500px;
+    top: 150px;
     bottom: 0;
     right: -50px;
     left: 0;
     margin: auto;
+}
+.tipos{
+    color: #7a297a;
+    margin: 0 10px;
 }
 .alopecia{
     float: right;
@@ -106,7 +116,7 @@ nav ul li:hover .sub-menu-contatos ul li:hover {
     float: right;
     position: absolute;
     right: 250px;
-    bottom: 250px;
+    bottom: 310px;
     text-decoration: underline;
     font-size: 1px;
     text-transform: uppercase;
@@ -146,7 +156,7 @@ nav ul li:hover .sub-menu-contatos ul li:hover {
 .quebra{
     float: left;
     position: absolute;
-    bottom: 250px;
+    bottom: 310px;
     left: 250px;
     text-decoration: underline;
     font-size: 1px;
@@ -241,3 +251,4 @@ nav ul li:hover .sub-menu-contatos ul li:hover {
 
 }
 /* Modal Fim */
+ 

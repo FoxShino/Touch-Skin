@@ -12,9 +12,17 @@ body {
     background-repeat: no-repeat;
     min-height: 100vh;
     font-family: 'Russo One', sans-serif;
+    overflow-y: hidden;
 }
 
 /*NAVBAR*/
+.logosenac{
+    position: absolute;
+    top: 2%;
+    max-height: 45px;
+    width: 200px;
+    left: 35px;
+  }
 
 nav {
     background-color: #483D8B	;

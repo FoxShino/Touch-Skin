@@ -15,14 +15,16 @@
 <body>
     <header>
         <nav>
+            <a href="https://site-geral-senacno-recnplay.netlify.app/index.html"><img src="img/logosenac.png" alt="logosenac"
+        class="logosenac"></a>
             <ul>
-                <li> <a href="homepage.html">Início</a> </li>
+                <li> <a href="index.html">Início</a> </li>
                 <li> <a href="sobre.html">Sobre</a> </li>
                 <li> <a href="dev.html">Contatos</a>
 
                     <div class="sub-menu-contatos">
                         <ul>
-                            <li> <a href="estetic.html">Turma de Estética</a> </li>
+                            <li> <a href="estetica1.html">Turma de Estética</a> </li>
                             <li> <a href="dev.html">Desenvolvedores</a> </li>
                         </ul>
                     </div>
@@ -32,8 +34,8 @@
         </nav>
     </header>
     <main>
-        <h2 class="subtitulo">face</h2>
-        <img class="face" src="img/Manequim.png" alt=""></a>
+        <h2 class="subtitulo">face</h2><a href=""></a>
+        <a href="opcoes.html"><img class="face" src="img/Manequim.png" alt=""></a>
         <div class="tipos">
             <p class="rugas item">Rugas
             </p>
@@ -71,25 +73,25 @@
             item.addEventListener("click", () => {
                 if(item.classList.contains("foliculite")){
                     document.querySelector('.titulo-modal').innerText = 'Foliculite';
-                    document.querySelector('.texto-modal').innerText = 'Esfoliar periodicamente a pele, Evitar agressoes na pele, Hidratar a pele e usar Protetor solar.';
+                    document.querySelector('.texto-modal').innerText = 'Esfoliar periodicamente a pele, Evitar agressões na pele, Hidratar a pele e usar Protetor solar.';
                 } else if(item.classList.contains("acne")){
                     document.querySelector('.titulo-modal').innerText = 'ACNE';
-                    document.querySelector('.texto-modal').innerText = 'Higienizar a pele regularmente, Nao espremer os cravos, Nao dormir com maquiagem e Evitar alimentos gordurosos.';
+                    document.querySelector('.texto-modal').innerText = 'Higienizar a pele regularmente, Não espremer os cravos, Não dormir com maquiagem e Evitar alimentos gordurosos.';
                 } else if(item.classList.contains("dermatite")){
                     document.querySelector('.titulo-modal').innerText = 'Dermatite';
-                    document.querySelector('.texto-modal').innerText = 'Evitar estresse, Evitar banhos quentes, Usar hidratantes faciais, Usar fatos de protecao solar (FPS).';
+                    document.querySelector('.texto-modal').innerText = 'Evitar estresse, Evitar banhos quentes, Usar hidratantes facíais, Usar fator de proteção solar (FPS).';
                 } else if(item.classList.contains("flacidez")){
                     document.querySelector('.titulo-modal').innerText = 'Flacidez';
-                    document.querySelector('.texto-modal').innerText = 'Usar protetor solar especifico, Evitar bebidas e cigarros, Ingerir alimentos ricos em vitamina C e Evitar a exposicao solar.';
+                    document.querySelector('.texto-modal').innerText = 'Usar protetor solar específico, Evitar bebidas e cigarros, Ingerir alimentos ricos em vitamina C e Evitar a exposição solar.';
                 } else if(item.classList.contains("melasma")){
                     document.querySelector('.titulo-modal').innerText = 'Melasma';
-                    document.querySelector('.texto-modal').innerText = 'Higienizar a pele, Evitar exposicao solar, Evitar a luz visivel e invisivel (luz azul) e Usar protetor solar especifico.';
+                    document.querySelector('.texto-modal').innerText = 'Higienizar a pele, Evitar exposição solar, Evitar a luz visível e invisível (luz azul) e Usar protetor solar específico.';
                 } else if(item.classList.contains("oleosidade")){
                     document.querySelector('.titulo-modal').innerText = 'oleosidade';
-                    document.querySelector('.texto-modal').innerText = 'Higienizar o rosto com produtos especificos, Usar diariamente protetor solar, Hidratar a pele e Cuidar da sua alimentacao.';
+                    document.querySelector('.texto-modal').innerText = 'Higienizar o rosto com produtos específicos, Usar diariamente protetor solar, Hidratar a pele e Cuidar da sua alimentação.';
                 } else if(item.classList.contains("olheiras")){
                     document.querySelector('.titulo-modal').innerText = 'olheiras';
-                    document.querySelector('.texto-modal').innerText = 'Dormir bem, Evitar coçar os olhos, Compressas de agua fria e Alimentação balanceada.';
+                    document.querySelector('.texto-modal').innerText = 'Dormir bem, Evitar coçar os olhos, Compressas de água fria e Alimentação balanceada.';
                 } else if(item.classList.contains("rugas")){
                     document.querySelector('.titulo-modal').innerText = 'rugas';
                     document.querySelector('.texto-modal').innerText = 'Higienizar a pele, Massagem facial, Hidratante facial e Protetor solar';
