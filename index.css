@@ -90,6 +90,7 @@ nav ul li:hover .sub-menu-contatos {
   -webkit-background-clip: text;
   background-clip: padding-box;
   -webkit-text-fill-color: white;
+   backdrop-filter: blur(30px);
   
 
 }
@@ -114,6 +115,14 @@ nav ul li:hover .sub-menu-contatos ul li:hover {
 
 .devs{
 padding: 0 0 20px 0;
+}
+
+
+
+li:hover:before,
+li:hover::after,
+li:hover a::before{
+   width: 100%;
 }
 
 /*NAVBAR FIM*/
